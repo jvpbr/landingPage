@@ -36,7 +36,7 @@ function validaEmail() {
 }
 
 function validaMensagem() {
-    let txtMensagem = document.querySelector("#txtMensgem")
+    let txtMensagem = document.querySelector("#txtMensagem")
 
     if(mensagem.value.length >= 100 && mensagem.value.length > 0){
         txtMensagem.innerHTML = "Texto é muito grande, digite no máximo 100 caracteres"
